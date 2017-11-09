@@ -1,0 +1,37 @@
+body{
+  background-image: url('stardust.png');
+  color: white;
+}
+
+.gif{
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+figure{
+  display: inline-block;
+  margin: 15px;
+  align-items: center;
+}
+
+button{
+  margin: .5%;
+}
+
+.gifSpot{
+
+  margin: auto;
+  text-align: center;
+}
+
+.jumbotron{
+  background-image: url('giphy.gif');
+  color: white;
+  font-family: 'Kalam', cursive;
+  text-emphasis: bold;
+}
+
+#text{
+  color: white;
+  font-family: 'Kalam', cursive;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NY Times API</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+
+    <p>Search Term: <input type="text" id='search'></p>
+    <p>Select Number of Articles:
+    <select>
+      <option class='number' data="1">1</option>
+      <option class='number' data="5">5</option>
+      <option class='number' data="10">10</option>
+    </select>
+    </p>
+    <p>Start Year: <input type="text" id='start'></p>
+    <p>End Year: <input type="text" id='end'></p>
+    <button type='submit' id='submit'>Search</button>
+    <button id='clear'>Clear</button>
+
+    <div class='articles'></div>
+
+
+
+  <script src='logic.js'></script>
+
+  </body>
+</html>
