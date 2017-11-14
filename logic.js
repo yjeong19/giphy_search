@@ -31,7 +31,7 @@ function getGifs(){
   $('.gifSpot').empty();
   var movies = $(this).attr('data-name');
   //technically don't need the replace, but I think it makes it more secure
-  var queryUrl = "http://api.giphy.com/v1/gifs/search?q=" + movies + "&api_key=RawlihL7xMXF7vQNUAbcwO7tdxWXSsb1&limit=10"
+  var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + movies + "&api_key=RawlihL7xMXF7vQNUAbcwO7tdxWXSsb1&limit=10"
 
 
 $.ajax({
