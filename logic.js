@@ -67,7 +67,7 @@ function directLoad(){
   userInput = userInput.replace(/\s+/g, '%20')
 
 
-  var queryUrl = "http://api.giphy.com/v1/gifs/search?q=" + userInput + "&api_key=RawlihL7xMXF7vQNUAbcwO7tdxWXSsb1&tag=movies&limit=10"
+  var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + userInput + "&api_key=RawlihL7xMXF7vQNUAbcwO7tdxWXSsb1&tag=movies&limit=10"
 
 $.ajax({
   url: queryUrl,
